@@ -47,54 +47,12 @@ const pAequorFactory = (specimenNum, dna) => {
         return true
       } 
       return false;
-      // let count = 0;
-      // for (let i=0; i < this.dna.length; i++){
-      //   if (this.dna[i] === 'C' || this.dna[i] === 'G'){
-      //     count++;
-      //   }
-      // }
-      // count = (count / this.dna.length) * 100;
-      // if (count >= 60){
-      //   return true;
-      // }
-      // return false;
     }
   }
 }
 
 
-
-// const pAequor0 = pAequorFactory(1, mockUpStrand());
-// const pAequor1 = pAequorFactory(2, mockUpStrand());
-// const pAequor2 = pAequorFactory(3, mockUpStrand());
-// const pAequor3 = pAequorFactory(4, mockUpStrand());
-// const pAequor4 = pAequorFactory(5, mockUpStrand());
-// const pAequor5 = pAequorFactory(6, mockUpStrand());
-
-// const pAequorArr = [pAequor0, pAequor1, pAequor2, pAequor3, pAequor4, pAequor5];
-
-// console.log(pAequor.dna);
-// console.log(pAequor.mutate());
-
-// ex1 = pAequorFactory(3, ['A', 'C', 'C', 'C']);
-// ex2 = pAequorFactory(4, ['C', 'A', 'T', 'T']);
-// ex1.compareDNA(ex2.dna);
-
-// pAequor.compareDNA(pAequor2.dna);
-// console.log(pAequor.dna);
-// console.log(pAequor.dna);
-// console.log(pAequor.willLikelySurvive());
-
 const pAequorSurv = [];
-
-// for (let i=0; pAequorSurv.length < 30; i++){
-//   let idCounter = 1;
-//   let newpAequor = pAequorFactory(idCounter, mockUpStrand());
-//   if (newpAequor.willLikelySurvive()){
-//     pAequorSurv.push(newpAequor)
-//   }
-//   idCounter += 1;
-// }
 
 let idCounter = 1;
 while (pAequorSurv.length <= 30){
@@ -106,22 +64,6 @@ while (pAequorSurv.length <= 30){
 }
 
 console.log(pAequorSurv);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
